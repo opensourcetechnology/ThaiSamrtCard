@@ -13,7 +13,10 @@ public static void main(String[] args){
         Card card = terminal.connect("*");
 //p.wakeupCard(card);
         p.getAvialableDataInfo(card, true); 
-} 
+}
+
+***เพิ่มเติม****
+หากไลบารี่ถามหา google-collection-1.0.jar ก็จะมีไลบารี่ให้ดาวน์โหลดไปใช้งานอยู่ใน folder>>lib
 
 ========================
 BUILD OUTPUT DESCRIPTION
