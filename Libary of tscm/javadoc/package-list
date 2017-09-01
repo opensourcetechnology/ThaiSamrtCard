@@ -2,7 +2,6 @@ com.hostos.lib.thaismartcard.api
 com.hostos.lib.thaismartcard.cardreader
 com.hostos.lib.thaismartcard.converter
 com.hostos.lib.thaismartcard.exception
-com.hostos.lib.thaismartcard.main
 com.hostos.lib.thaismartcard.model
 com.hostos.lib.thaismartcard.option
 com.hostos.lib.thaismartcard.ui
