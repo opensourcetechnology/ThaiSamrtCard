@@ -1,3 +1,20 @@
+****************************************
+How to Run ThaiSmartCard Libary
+****************************************
+fix code on main class or creat method
+public static void main(String[] args){
+//create mehtod from pcscService
+        pcscServices p = new pcscServices();
+        TerminalFactory factory = TerminalFactory.getDefault();
+        List<CardTerminal> terminals = factory.terminals().list();
+// Use the first terminal
+        CardTerminal terminal = terminals.get(0);
+// Connect with the card
+        Card card = terminal.connect("*");
+//p.wakeupCard(card);
+        p.getAvialableDataInfo(card, true); 
+}  
+
 ========================
 BUILD OUTPUT DESCRIPTION
 ========================
