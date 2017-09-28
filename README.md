@@ -201,8 +201,8 @@
 	<tr align="center">
 		<td>GET RESPONSE</td>
 		<td>0x00</td>
-		<td>0xC0/td>
-		<td>0x00/td>
+		<td>0xC0</td>
+		<td>0x00</td>
 		<td>0x00</td>
 		<td></td>
 		<td></td>
@@ -575,8 +575,8 @@
 	<tr align="center">
 		<td>GET RESPONSE</td>
 		<td>0x00</td>
-		<td>0xC0/td>
-		<td>0x00/td>
+		<td>0xC0</td>
+		<td>0x00</td>
 		<td>0x00</td>
 		<td></td>
 		<td></td>
