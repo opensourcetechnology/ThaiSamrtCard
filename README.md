@@ -1,4 +1,4 @@
-# ThaiSamrtCard
+# ThaiSamartCardReader
 การใช้งาน ThaiSmartCardReader Libary
 
 ซึ่งตัวไลบารี่จะมีชนิดข้อมูลที่ให้บริการ 2 ประเภท คือ
