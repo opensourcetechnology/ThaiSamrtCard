@@ -193,6 +193,36 @@
 		<td>Le</td>
 	</tr>
 	<tr align="center">
+		<td>Select</td>
+		<td>0x00</td>
+		<td>0xA4</td>
+		<td>0x04</td>
+		<td>0x00</td>
+		<td>0x08</td>
+		<td>0xA0,0x00,0x00,0x00,0x54,0x48,0x00,0x01</td>
+		<td></td>
+	</tr>
+	<tr align="center">
+		<td>GET RESPONSE</td>
+		<td>0x00</td>
+		<td>0xC0/td>
+		<td>0x00/td>
+		<td>0x00</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr align="center">
+		<td>Description</td>
+		<td>CLA</td>
+		<td>INS</td>
+		<td>P1</td>
+		<td>P2</td>
+		<td>Lc</td>
+		<td>Data</td>
+		<td>Le</td>
+	</tr>
+	<tr align="center">
 		<td>pid</td>
 		<td>0x80</td>
 		<td>0xB0</td>
@@ -535,6 +565,26 @@
 		<td>Lc</td>
 		<td>Data</td>
 		<td>Le</td>
+	</tr>
+	<tr align="center">
+		<td>Select</td>
+		<td>0x00</td>
+		<td>0xA4</td>
+		<td>0x04</td>
+		<td>0x00</td>
+		<td>0x08</td>
+		<td>0xA0,0x00,0x00,0x00,0x54,0x48,0x00,0x83</td>
+		<td></td>
+	</tr>
+	<tr align="center">
+		<td>GET RESPONSE</td>
+		<td>0x00</td>
+		<td>0xC0/td>
+		<td>0x00/td>
+		<td>0x00</td>
+		<td></td>
+		<td></td>
+		<td></td>
 	</tr>
 	<tr align="center">
 		<td>mainRights</td>
