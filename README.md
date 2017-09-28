@@ -77,7 +77,6 @@
     }
 <br>
 <h3>การติดต่อกับเครื่องอ่านสมาร์ทการ์ด</h3>
-<br><br>
     <h4>ADPU</h4> เป็นหน่วยการติดต่อแบบพิเศษ เรียกว่า aplliacation protocol data units
 ใช้เพื่อแลกเปลี่ยนข้อมูลกับ Type 4 Tag platform
 <br>
