@@ -85,7 +85,6 @@
 <h4>R-ADPU</h4> : คำตอบที่ถูกส่งมาจากเครื่องอ่านการ์ด
 <br><br>
 <h3>ADPU Types</h3>
-
 <table align="center">
     <tr align="center">
         <td>Field</td>
@@ -104,7 +103,6 @@
         <td>เขียนข้อมูลลงในไฟล์</td>
     </tr>
 </table>
-<br>
 <h3>C-ADPU</h3>
 <table align="center">
     <tr align="center">
@@ -150,7 +148,6 @@
         <td>ระบุความยาวของ Response ที่จะออกมาจาก R-ADPU</td>
     </tr>
 </table>
-
 <h3>R-ADPU</h3>
 <table align="center">
     <tr align="center">
