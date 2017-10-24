@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.3 (tags/2.3-7528; 2013-04-29T19:34:10+0000) JAXWS-RI/2.2.8 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://tokenws.ucws.nhso.go.th/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://tokenws.ucws.nhso.go.th/">
+
+    <xs:element name="searchCurrentByPID" type="tns:searchCurrentByPID"/>
+
+    <xs:element name="searchCurrentByPIDResponse" type="tns:searchCurrentByPIDResponse"/>
+
+    <xs:complexType name="searchCurrentByPID">
+        <xs:sequence>
+            <xs:element name="user_person_id" type="xs:string" minOccurs="0"/>
+            <xs:element name="smctoken" type="xs:string" minOccurs="0"/>
+            <xs:element name="person_id" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="searchCurrentByPIDResponse">
+        <xs:sequence>
+            <xs:element name="return" type="tns:nhsoDataSetC1" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="nhsoDataSetC1">
+        <xs:sequence>
+            <xs:element name="birthdate" type="xs:string" minOccurs="0"/>
+            <xs:element name="cardid" type="xs:string" minOccurs="0"/>
+            <xs:element name="chat" type="xs:string" minOccurs="0"/>
+            <xs:element name="count_select" type="xs:int"/>
+            <xs:element name="expdate" type="xs:string" minOccurs="0"/>
+            <xs:element name="fname" type="xs:string" minOccurs="0"/>
+            <xs:element name="hmain" type="xs:string" minOccurs="0"/>
+            <xs:element name="hmain_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="hmain_op" type="xs:string" minOccurs="0"/>
+            <xs:element name="hmain_op_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="hsub" type="xs:string" minOccurs="0"/>
+            <xs:element name="hsub_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="lname" type="xs:string" minOccurs="0"/>
+            <xs:element name="maininscl" type="xs:string" minOccurs="0"/>
+            <xs:element name="maininscl_main" type="xs:string" minOccurs="0"/>
+            <xs:element name="maininscl_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="mastercup_id" type="xs:string" minOccurs="0"/>
+            <xs:element name="nation" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_date_register" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="new_expdate" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_hmain" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_hmain_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_hmain_op" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_hmain_op_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_hsub" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_hsub_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_maininscl" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_maininscl_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_mastercup_id" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_paid_model" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_purchaseprovince" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_purchaseprovince_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_staffname" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_startdate" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_subinscl" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_subinscl_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_type_register" type="xs:string" minOccurs="0"/>
+            <xs:element name="new_type_register_desc" type="xs:string" minOccurs="0"/>
+            <xs:element name="paid_model" type="xs:string" minOccurs="0"/>
+            <xs:element name="person_id" type="xs:string" minOccurs="0"/>
+            <xs:element name="primary_amphur_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="primary_moo" type="xs:string" minOccurs="0"/>
+            <xs:element name="primary_mooban_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="primary_province_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="primary_tumbon_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="primaryprovince" type="xs:string" minOccurs="0"/>
+            <xs:element name="purchaseprovince" type="xs:string" minOccurs="0"/>
+            <xs:element name="purchaseprovince_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="sex" type="xs:string" minOccurs="0"/>
+            <xs:element name="startdate" type="xs:string" minOccurs="0"/>
+            <xs:element name="startdate_sss" type="xs:string" minOccurs="0"/>
+            <xs:element name="status" type="xs:string" minOccurs="0"/>
+            <xs:element name="status_desc" type="xs:string" minOccurs="0"/>
+            <xs:element name="subinscl" type="xs:string" minOccurs="0"/>
+            <xs:element name="subinscl_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="title" type="xs:string" minOccurs="0"/>
+            <xs:element name="title_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="ws_data_source" type="xs:string" minOccurs="0"/>
+            <xs:element name="ws_date_request" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="ws_status" type="xs:string" minOccurs="0"/>
+            <xs:element name="ws_status_desc" type="xs:string" minOccurs="0"/>
+            <xs:element name="wsid" type="xs:string" minOccurs="0"/>
+            <xs:element name="wsid_batch" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

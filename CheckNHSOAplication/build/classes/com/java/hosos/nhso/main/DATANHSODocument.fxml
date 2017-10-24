@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="256.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.java.hosos.nhso.main.DATANHSODocumentController">
+  <children>
+    <VBox prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <Separator prefWidth="200.0" />
+        <Label text=" ข้อมูลประชากร (สปสช)">
+          <font>
+            <Font name="System Bold" size="14.0" fx:id="x2" />
+          </font>
+        </Label>
+        <Separator prefWidth="200.0" />
+        <HBox prefHeight="28.0" prefWidth="600.0">
+          <children>
+            <Label text=" รหัสประจำตัวประชาชน 13 หลัก">
+              <font>
+                <Font name="System Bold" size="12.0" fx:id="x1" />
+              </font>
+            </Label>
+            <Label text=" :  " />
+            <Label fx:id="pidTxt" text="-" />
+            <Label font="$x1" text="     ชื่อ" />
+            <Label text=" :  " />
+            <Label fx:id="fnameTxt" text="-" />
+            <Label font="$x1" text="     นามสกุล" />
+            <Label text=" :  " />
+            <Label fx:id="lnameTxt" text="-" />
+          </children>
+        </HBox>
+        <VBox prefHeight="16.0" prefWidth="600.0">
+          <children>
+            <Separator prefWidth="200.0" />
+            <Separator prefHeight="16.0" prefWidth="600.0" />
+          </children>
+        </VBox>
+        <HBox prefHeight="28.0" prefWidth="600.0">
+          <children>
+            <Label font="$x1" prefWidth="371.0" text=" ข้อมูลสิทธิ                                                                                              " />
+            <Label font="$x1" text="ข้อมูล ณ. วันที่" />
+            <Label text=" :  " />
+            <Label fx:id="dateTxt" text="-" />
+          </children>
+        </HBox>
+        <Separator prefWidth="200.0" />
+        <HBox prefHeight="28.0" prefWidth="600.0">
+          <children>
+            <Label font="$x1" prefWidth="300.0" text="                                             จังหวัดที่ลงทะเบียนรักษา" />
+            <Label fx:id="provinceTxt" text="-" />
+          </children>
+        </HBox>
+        <HBox prefHeight="28.0" prefWidth="600.0">
+          <children>
+            <Label font="$x1" prefWidth="300.0" text="                                              สิทธิหลักในการรับบริการ" />
+            <Label fx:id="mainRightTxt" text="-" />
+          </children>
+        </HBox>
+        <HBox prefHeight="28.0" prefWidth="600.0">
+          <children>
+            <Label font="$x1" prefWidth="300.0" text="                                                     หน่วยบริการปฐมภูมิ" />
+            <Label fx:id="hsubTxt" text="-" />
+          </children>
+        </HBox>
+        <HBox prefHeight="28.0" prefWidth="600.0">
+          <children>
+            <Label font="$x1" prefWidth="300.0" text="                                                      หน่วยบริการประจำ" />
+            <Label fx:id="hmainTxt" text="-" />
+          </children>
+        </HBox>
+        <Pane prefHeight="47.0" prefWidth="600.0">
+          <children>
+            <Hyperlink fx:id="backForm" font="$x2" layoutX="121.0" layoutY="11.0" onAction="#backEvent" text="กลับ" />
+            <Hyperlink fx:id="logoutForm" font="$x2" layoutX="371.0" layoutY="13.0" onAction="#logoutEvent" text="ออกจากระบบ" />
+          </children>
+        </Pane>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

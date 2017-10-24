@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://ucws.nhso.go.th/ucwstokenp1/UCWSTokenP1?wsdl" uri="wsdl/ucws.nhso.go.th/ucwstokenp1/UCWSTokenP1.wsdl"/>
+    <system systemId="http://ucws.nhso.go.th:80/ucwstokenp1/UCWSTokenP1?xsd=1" uri="wsdl/ucws.nhso.go.th_80/ucwstokenp1/UCWSTokenP1.xsd_1.xsd"/>
+</catalog>
